@@ -49,4 +49,28 @@ Um sistema de blog básico, utilizando:
 - URLs amigáveis com Slugify
 
 ---
+
+### 📌 Terceiro Projeto: API REST Básica 
+
+API REST básica usando arquitetura em camadas, utilizando:
+
+- **Node.js + Express.js**
+- **Sequelize (ORM para MySQL)**
+- **MySQL**
+- **Dotenv para dados sensíveis**
+
+📌 **Funcionalidades:**
+- Listar, criar, editar e deletar 
+
+
+### 📌 Quarto Projeto: Consumo de API com Axios 
+
+CRUD com HTML, CSS e Javascript simples usando axios para exemplificar o consumo da API criada:
+
+- **Axios**
+- **Bootstrap**
+- **Javascript**
+
+📌 **Funcionalidades:**
+- Listar, criar, editar e deletar 
  
