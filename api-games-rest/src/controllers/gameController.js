@@ -37,6 +37,9 @@ export const getGameById = async (req, res) => {
 export const createGame = async (req, res) => {
     try {
         const { title, year, price } = req.body;
+        if (!title || !year || !price) {
+            return res.status(400).json({ message: "Todos os campos são obrigatórios" });
+        }
         const newGame = await Game.create({ title, year, price });
         res.status(201).json(newGame);
     } catch (error) {
@@ -70,16 +73,28 @@ export const deleteGame = async (req, res) => {
         const { id } = req.params;
 
         const game = await Game.findByPk(id);
+        if (!game) {
+          return res.status(404).json({ message: "Jogo não encontrado" });  
+        } 
         await game.destroy();
-        res.json({ message: "Jogo excluido com sucesso"});
-        
-        if(!game) {
-            return res.status(404).json({ error: "Jogo não encontrado" });
-        }
+        res.json({ message: "Jogo excluido com sucesso"});    
 
     } catch (error) {
         res.status(500).json({ error: "Erro ao deletar o jogo"});
     }
 }
 
+export const authUser = async (req, res) => {
+    try { 
+        let { email, password } = req.body;
+        if(email != undefined) {            
+
+        } else {
+            return res.status(400).json({ error: "Email inválido" });
+        }
+
+      } catch (error) {
+        res.status(500).json({ error: "Erro ao deletar o jogo"});
+    }
+}
 

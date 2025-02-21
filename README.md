@@ -50,7 +50,7 @@ Um sistema de blog básico, utilizando:
 
 ---
 
-### 📌 Terceiro Projeto: API REST Básica 
+### 📌 Terceiro Projeto: API REST Básica com autenticação JWT
 
 API REST básica usando arquitetura em camadas, utilizando:
 
@@ -58,18 +58,22 @@ API REST básica usando arquitetura em camadas, utilizando:
 - **Sequelize (ORM para MySQL)**
 - **MySQL**
 - **Dotenv para dados sensíveis**
+- **Autenticação JWT**
 
 📌 **Funcionalidades:**
 - Listar, criar, editar e deletar 
 
+---
 
-### 📌 Quarto Projeto: Consumo de API com Axios 
+### 📌 Quarto Projeto: Front-end para consumo de API Rest com Axios e JWT
 
-CRUD com HTML, CSS e Javascript simples usando axios para exemplificar o consumo da API criada:
+CRUD simples com HTML, CSS e Javascript utilizando axios e login JWT:
 
+- **HTML e CSS**
 - **Axios**
 - **Bootstrap**
 - **Javascript**
+- **JWT**
 
 📌 **Funcionalidades:**
 - Listar, criar, editar e deletar 
