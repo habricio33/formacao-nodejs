@@ -78,3 +78,33 @@ CRUD simples com HTML, CSS e Javascript utilizando axios e login JWT:
 📌 **Funcionalidades:**
 - Listar, criar, editar e deletar 
  
+---
+
+### 📌 Quinto Projeto: Chat demonstrando o uso de Sockets
+
+Chat simples usando socket.io
+
+- **HTML e CSS**
+- **Socket.io**
+- **Bootstrap**
+- **Javascript**
+ 
+
+📌 **Funcionalidades:**
+- Envio de mensagem em tempo real 
+
+---
+
+### 📌 Sexto Projeto: Sistema de agendamento com MongoDB
+
+Sistema de cadastro para agendamento e notificação de consultas utilizando Mongoose, FullCalendar e Nodemailer.
+
+- **Full Calendar**
+- **Mongoose**
+- **Bootstrap**
+- **Nodemailer**
+- **API MailTrap**
+ 
+
+📌 **Funcionalidades:**
+- Cadastro de consultas, exibição no calendário e notificação via email de consultas 
