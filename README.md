@@ -108,3 +108,20 @@ Sistema de cadastro para agendamento e notificação de consultas utilizando Mon
 
 📌 **Funcionalidades:**
 - Cadastro de consultas, exibição no calendário e notificação via email de consultas 
+
+---
+
+### 📌 Sétimo Projeto: TDD com Jest
+
+Demonstração básica de usando testes automatizados (TDD).
+
+- **Jest**
+- **Mongoose**
+- **Supertest**
+- **JWT**
+- **Bcrypt**
+- **Express**
+ 
+
+📌 **Funcionalidades:**
+- Demonstração de testes automatizados com Jest em funcionalidades básicas como cadastro, login e validação 
